@@ -1,0 +1,103 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1404468031" file="D:\Documents\GitHub\visual-compression-score\BRISQUEt\Visual Compression Score (BRISQUEt).prj" location="D:\Documents\GitHub\visual-compression-score\BRISQUEt" name="Visual Compression Score (BRISQUEt)" target="target.mlapps" target-name="Package App">
+    <param.appname>Visual Compression Score (BRISQUEt)</param.appname>
+    <param.authnamewatermark>Praful Gupta, James Hodges, Mitch Chaiet</param.authnamewatermark>
+    <param.email />
+    <param.company>memetic influence</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Analyze the visual compression within a meme.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\mitch\AppData\Local\Temp\tp0b074da9_d930_440a_94f9_060f81d85820.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>glnxa64</item>
+      <item>win64</item>
+      <item>maci64</item>
+    </param.platforms>
+    <param.output>${PROJECT_ROOT}\binaries</param.output>
+    <param.guid>8a99d2cd-a246-410c-97b5-61737df770cb</param.guid>
+    <unset>
+      <param.email />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\VisualCompressionScore_BRISQUEt.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\.DS_Store</file>
+      <file>${PROJECT_ROOT}\brisquet.m</file>
+      <file>${PROJECT_ROOT}\check_brisquet.m</file>
+      <file>${PROJECT_ROOT}\data_gen_script.ipynb</file>
+      <file>${PROJECT_ROOT}\dist_levels</file>
+      <file>${PROJECT_ROOT}\feats_label_pair.mat</file>
+      <file>${PROJECT_ROOT}\hankhill</file>
+      <file>${PROJECT_ROOT}\memes</file>
+      <file>${PROJECT_ROOT}\misc_functions</file>
+      <file>${PROJECT_ROOT}\results.m</file>
+      <file>${PROJECT_ROOT}\results.m~</file>
+      <file>${PROJECT_ROOT}\svmpredict.mexa64</file>
+      <file>${PROJECT_ROOT}\svmpredict.mexmaci64</file>
+      <file>${PROJECT_ROOT}\svmpredict.mexw64</file>
+      <file>${PROJECT_ROOT}\svmtrain.mexa64</file>
+      <file>${PROJECT_ROOT}\svmtrain.mexmaci64</file>
+      <file>${PROJECT_ROOT}\svmtrain.mexw64</file>
+      <file>${PROJECT_ROOT}\VisualCompressionScore.mlapp</file>
+      <file>${PROJECT_ROOT}\VisualCompressionScore_BRISQUEt.m</file>
+      <file>${PROJECT_ROOT}\VisualCompressionScore_BRISQUEt.mlapp</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="binaries" optional="false">D:\Documents\GitHub\visual-compression-score\BRISQUEt\binaries</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
